@@ -11,6 +11,10 @@ O sistema responde perguntas como:
 - o histórico similar sugere risco de chargeback?
 - onde a evidência dessa decisão deveria ser armazenada?
 
+## Interface
+
+![Interface do agente de prevenção a fraudes](assets/agente_fraude.jpg)
+
 ## Arquitetura
 
 ```mermaid
@@ -98,3 +102,7 @@ streamlit run app.py
 ## English Version
 
 `Agente Prevencao Fraudes` is a fraud prevention MVP built around Google Cloud tools. It combines local fraud signal computation, historical pattern lookup, evidence trail generation, and optional Vertex AI explanation. When GCP credentials are not available, the project preserves the same output contract through a deterministic fallback.
+
+## Interface
+
+![Fraud prevention agent interface](assets/agente_fraude.jpg)
