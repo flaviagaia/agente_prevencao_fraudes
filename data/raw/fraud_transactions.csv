@@ -1,0 +1,4 @@
+transaction_id,customer_id,event_ts,amount_br,merchant_category,payment_method,device_change_24h,geo_distance_km,failed_attempts_24h,chargebacks_90d,account_age_days,velocity_1h,known_blacklist_match,email_risk_score,ip_risk_score
+FRD-1001,CUS-9001,2026-03-30T10:15:00,12990,electronics,credit_card,0,8,1,0,820,2,0,0.08,0.12
+FRD-1002,CUS-9002,2026-03-30T11:42:00,48750,gift_cards,credit_card,1,1260,6,2,34,7,1,0.81,0.88
+FRD-1003,CUS-9003,2026-03-30T14:08:00,3490,groceries,pix,0,4,0,0,560,1,0,0.05,0.06
