@@ -68,17 +68,17 @@ Esse desenho separa claramente:
 
 ## Estrutura do Projeto
 
-- [src/sample_data.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/src/sample_data.py)
+- [src/sample_data.py](src/sample_data.py)
   - base demo de transações.
-- [src/tools.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/src/tools.py)
+- [src/tools.py](src/tools.py)
   - sinais, lookup, evidência e classificação.
-- [src/agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/src/agent.py)
+- [src/agent.py](src/agent.py)
   - orquestração com Vertex AI e fallback.
-- [app.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/app.py)
+- [app.py](app.py)
   - console técnico em `Streamlit`.
-- [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/main.py)
+- [main.py](main.py)
   - execução rápida e persistência do relatório.
-- [tests/test_agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/tests/test_agent.py)
+- [tests/test_agent.py](tests/test_agent.py)
   - validação principal.
 
 ## Topologia de Execução
@@ -205,7 +205,7 @@ Esse contrato único facilita integração futura com:
 
 ## Persistência e Artefatos
 
-O script [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/main.py) gera o artefato:
+O script [main.py](main.py) gera o artefato:
 
 - `data/processed/fraud_prevention_report.json`
 
@@ -237,7 +237,7 @@ Na prática, ele funciona como uma `debuggable presentation layer`, útil para:
 
 ## Validação
 
-Os testes em [tests/test_agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_prevencao_fraudes/tests/test_agent.py) verificam:
+Os testes em [tests/test_agent.py](tests/test_agent.py) verificam:
 
 - presença de flags em transações de alto risco;
 - retorno de decisão válida;
